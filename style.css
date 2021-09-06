@@ -1,3 +1,4 @@
+
 h1 {font-family: 'Playfair Display', serif; font-size: 96px; padding-bottom: 24px;}
 
 h2 {font-family: 'Poppins', sans-serif; font-size: 36px; font-weight: bold; margin: 0; padding-top: 276px;}
@@ -7,6 +8,8 @@ h3 {font-family: 'Poppins', sans-serif, serif; font-weight: normal; font-size: 2
 p {font-family: 'Poppins', sans-serif, serif; font-weight: normal; font-size: 18px; margin-top: 127px; margin-bottom: 87px;}
 
 img {margin: 0 auto; display: block;}
+
+.navbarNav {font-family: 'Poppins', sans-serif; font-size: 24px; color: #6C63FF;}
 
 .welcome {background-color: #f9f7fe;}
 
@@ -21,4 +24,5 @@ img {margin: 0 auto; display: block;}
 .project-description {padding: 0 30px;}
 
 .work-inquiry-area {background-color: #F9F7FE; border-color: #F9F7FE; border-radius: 20px; padding: 10px 40px;}
+
 @media (max-width:960px) {.project-description {padding: 0px; text-align: center;}}
