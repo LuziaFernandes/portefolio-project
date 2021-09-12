@@ -32,4 +32,20 @@ p {font-family: 'Poppins', sans-serif, serif; font-weight: normal; font-size: 18
 
 .work-inquiry-area {background-color: #F9F7FE; border-color: #F9F7FE; border-radius: 20px; padding: 10px 40px;}
 
+.email-link {
+    color: black;
+    font-family: 'Poppins', sans-serif, serif;
+    font-size: 24px;
+}
+.social-links {
+    color: #6C63FF;
+    font-size: 20px;
+    margin: 0px 30px;
+    padding: 20px 20px;
+    background-color: rgba(108, 99, 255, 0.05);
+    border-radius: 90px;
+}
+
 @media (max-width:960px) {.project-description {padding: 0px; text-align: center;}}
+
+
