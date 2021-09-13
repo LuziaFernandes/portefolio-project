@@ -20,7 +20,11 @@ p {font-family: 'Poppins', sans-serif, serif; font-weight: normal; font-size: 18
 
 .welcome {background-color: #f9f7fe;}
 
-.contact-me-button {background-color: #6C63FF; color: white; font-family: 'Poppins', sans-serif; margin-bottom: 271px;}
+.contact-me-button {
+    background-color: #6C63FF; 
+    color: white; font-family: 'Poppins', sans-serif; 
+    margin-bottom: 271px;
+}
 
 .heading {font-family: 'Playfair Display', serif; font-size: 64px;font-weight: normal; margin-bottom: 54px;}
 
@@ -30,7 +34,19 @@ p {font-family: 'Poppins', sans-serif, serif; font-weight: normal; font-size: 18
 
 .project-description {padding: 0 30px;}
 
-.work-inquiry-area {background-color: #F9F7FE; border-color: #F9F7FE; border-radius: 20px; padding: 10px 40px;}
+.work-inquiry-area {
+    background-color: #F9F7FE; 
+    border-color: #F9F7FE; 
+    border-radius: 20px; 
+    margin: 50px 300px;
+   }
+
+.lets-talk-button {
+    background-color: #6C63FF; 
+    color: white; font-family: 'Poppins', sans-serif; 
+    margin-top: 89px;
+    font-size: 18px;
+    }
 
 .email-link {
     color: black;
