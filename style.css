@@ -20,6 +20,8 @@ p {font-family: 'Poppins', sans-serif, serif; font-weight: normal; font-size: 18
 
 .welcome {background-color: #f9f7fe;}
 
+.page-content{margin: 150px 140px;}
+
 .contact-me-button {
     background-color: #6C63FF; 
     color: white; font-family: 'Poppins', sans-serif; 
@@ -34,6 +36,12 @@ p {font-family: 'Poppins', sans-serif, serif; font-weight: normal; font-size: 18
 
 .project-description {padding: 0 30px;}
 
+.profile-picture {width:703px;
+    border-radius: 20px;
+    margin: 20px 10px;
+
+}
+
 .work-inquiry-area {
     background-color: #F9F7FE; 
     border-color: #F9F7FE; 
@@ -47,6 +55,13 @@ p {font-family: 'Poppins', sans-serif, serif; font-weight: normal; font-size: 18
     margin-top: 89px;
     font-size: 18px;
     }
+
+.show-work-button {
+    background-color: #6C63FF; 
+    color: white; font-family: 'Poppins', sans-serif; 
+    margin-top: 20px;
+    font-size: 18px;
+}
 
 .email-link {
     color: black;
