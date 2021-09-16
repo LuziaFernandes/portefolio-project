@@ -6,8 +6,6 @@
     --text-color:#272142;
 }
 
-
-
 h1 {font-family: var(--heading-font-family); 
     font-size: 96px; 
     padding-bottom: 24px;}
@@ -117,6 +115,10 @@ p {font-family: var(--text-font-family);
     border-radius: 90px;
 }
 
-@media (max-width:960px) {.project-description {padding: 0px; text-align: center;}}
+@media (max-width:960px) {
+    .project-description {padding: 0px; text-align: center;}
+
+    .page-content {text-align: center; padding: 0;}
+}
 
 
