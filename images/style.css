@@ -1,0 +1,124 @@
+:root {
+    --heading-font-family:'Playfair Display', serif;
+    --text-font-family:'Poppins', sans-serif;
+    --background-color:#f9f7fe;
+    --main-color: #6C63FF;
+    --text-color:#272142;
+}
+
+h1 {font-family: var(--heading-font-family); 
+    font-size: 96px; 
+    padding-bottom: 24px;}
+
+h2 {font-family: var(--text-font-family); 
+    font-size: 36px; 
+    font-weight: bold; 
+    margin: 0; 
+    padding-top: 276px;}
+
+h3 {font-family: var(--text-font-family); 
+    font-weight: normal; 
+    font-size: 24px; 
+    line-height: 2; 
+    padding-bottom: 67px; 
+    color: var(--text-color);}
+
+p {font-family: var(--text-font-family); 
+    font-weight: normal; 
+    font-size: 18px;
+    margin-top: 127px; 
+    margin-bottom: 87px;}
+
+.navbar {
+    font-family: var(--text-font-family); 
+    font-size: 24px; 
+    color: var(--main-color);
+    padding: 20px 80px;
+}
+.nav-item {padding: 0px 40px;}
+
+.logo {max-width: 150px;}
+
+
+.welcome {background-color: var(--background-color);}
+
+.page-content{margin: 150px 140px;}
+
+.contact-me-button {
+    background-color: var(--main-color);
+    color: white; 
+    font-family: var(--text-font-family);
+    margin-bottom: 271px;
+}
+
+.heading {font-family: var(--heading-font-family); 
+    font-size: 64px;
+    font-weight: normal; 
+    margin-bottom: 54px;}
+
+.description {font-family: var(--text-font-family); 
+    font-weight: normal;
+    font-size: 16px; 
+    line-height: 30px; 
+    padding: 514px, 120px; 
+    color: #272142; opacity: 0.7; 
+    margin-bottom: 69px;}
+
+.detailed-project-button {color: var(--main-color);
+    border-color: var(--main-color);
+    background-color: white;
+    font-family: var(--text-font-family); 
+    border-radius: 4px; 
+    font-size: 16px;}
+
+.project-description {padding: 0 30px;}
+
+.profile-picture {width:703px;
+    border-radius: 20px;
+    margin: 20px 10px;
+}
+
+.work-inquiry-area {
+    background-color: var(--background-color);
+    border-color: var(--background-color);
+    border-radius: 20px; 
+    margin: 50px 300px;
+   }
+
+.lets-talk-button {
+    background-color: var(--main-color);
+    color: white; 
+    font-family: var(--text-font-family); 
+    margin-top: 89px;
+    font-size: 18px;
+    }
+
+.show-work-button {
+    background-color: var(--main-color);
+    color: white; 
+    font-family: var(--text-font-family); 
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.email-link {
+    color: black;
+    font-family: var(--text-font-family);
+    font-size: 24px;
+}
+.social-links {
+    color: var(--main-color);
+    font-size: 20px;
+    margin: 0px 30px;
+    padding: 20px 20px;
+    background-color: var(--background-color);
+    border-radius: 90px;
+}
+
+@media (max-width:960px) {
+    .project-description {padding: 0px; text-align: center;}
+
+    .page-content {text-align: center; padding: 0;}
+}
+
+
