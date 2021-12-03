@@ -28,6 +28,9 @@ p {font-family: var(--text-font-family);
     font-size: 18px;
     margin-top: 127px; 
     margin-bottom: 87px;}
+img {
+    border-radius: 10px;
+    }
 
 .navbar {
     font-family: var(--text-font-family); 
